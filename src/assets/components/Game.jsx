@@ -106,10 +106,10 @@ export default function Component({ currentUser }) {
   const totalTime = endTime ? (endTime - startTime) / 1000 : 0;
   const penalty = (5 - score) * 3;
   const finalTime = totalTime + penalty;
-  const thresholdTime = 9;
+  const thresholdTime = 8;
   const wrongAnswers = 5 - score;
   const congratsMessage =
-    finalTime < thresholdTime && wrongAnswers <= 2
+    finalTime < thresholdTime && wrongAnswers < 2
       ? "Congratulations! Your time is faster than the threshold time of 9 seconds."
       : "Sorry, you were slower than the threshold time or had more than 2 incorrect answers.";
 
