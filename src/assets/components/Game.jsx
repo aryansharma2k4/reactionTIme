@@ -110,8 +110,8 @@ export default function Component({ currentUser }) {
   const wrongAnswers = 5 - score;
   const congratsMessage =
     finalTime < thresholdTime && wrongAnswers < 2
-      ? "Congratulations! Your time is faster than the threshold time of 9 seconds."
-      : "Sorry, you were slower than the threshold time or had more than 2 incorrect answers.";
+      ? "Congratulations! Your time is faster than the threshold time of 8 seconds."
+      : "Sorry, you were slower than the threshold time or had more than or 2 incorrect answers.";
 
   if (!quizSolved) {
     return (

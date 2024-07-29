@@ -38,8 +38,8 @@ function Details({ setCurrentUser, onEnter }) {
         </form>
         <div className="rules flex flex-col items-center bg-white rounded-xl shadow-lg p-8 fixed right-0 top-1/2 transform -translate-y-1/2 w-80">
           <div className="text-center font-bold text-[24px] mb-4">Rules of the Game</div>
-          <p className="text-[20px]">1. You should have at least 3 correct answers.</p>
-          <p className="text-[20px]">2. Your time should be less than 9 seconds.</p>
+          <p className="text-[20px]">1. You should have at least 4 correct answers.</p>
+          <p className="text-[20px]">2. Your time should be less than 8 seconds.</p>
           <p className="text-[20px]">Only then you will be eligible for the chocolate.</p>
         </div>
       </div>
